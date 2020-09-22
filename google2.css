@@ -1,0 +1,51 @@
+
+.nav {
+  display: flex;
+  min-height: 56px;
+  align-items: center;
+}
+
+.left, .middle, .right {
+	flex: 1;
+}
+
+.right {
+	text-align: center;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #222;
+	font: 13px arial, sans-serif;
+}
+
+.image a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer a {
+	text-decoration: none;
+	color: #222;
+	font: 14px arial, sans-serif;
+}
+
+.bottom {
+	display: flex;
+}
+
+.bottomleft, .bottomright {
+	flex: 1;
+}
+
+.bottomright {
+	text-align: right;
+	
+}
